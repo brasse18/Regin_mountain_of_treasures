@@ -1,0 +1,1 @@
+/usr/lib/hardening-wrapper/bin/c++   -std=c++0x -g   CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o  -o Regin_mountain_of_treasures  -L/home/brasse/Regin-mountain-of-treasures/lib -Wl,-rpath,/home/brasse/Regin-mountain-of-treasures/lib -lSDLmain -lSDL 
