@@ -123,6 +123,141 @@ Regin_mountain_of_treasures/fast:
 	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/build
 .PHONY : Regin_mountain_of_treasures/fast
 
+Body.o: Body.cpp.o
+
+.PHONY : Body.o
+
+# target to build an object file
+Body.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o
+.PHONY : Body.cpp.o
+
+Body.i: Body.cpp.i
+
+.PHONY : Body.i
+
+# target to preprocess a source file
+Body.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.i
+.PHONY : Body.cpp.i
+
+Body.s: Body.cpp.s
+
+.PHONY : Body.s
+
+# target to generate assembly for a file
+Body.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.s
+.PHONY : Body.cpp.s
+
+BodyType.o: BodyType.cpp.o
+
+.PHONY : BodyType.o
+
+# target to build an object file
+BodyType.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o
+.PHONY : BodyType.cpp.o
+
+BodyType.i: BodyType.cpp.i
+
+.PHONY : BodyType.i
+
+# target to preprocess a source file
+BodyType.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.i
+.PHONY : BodyType.cpp.i
+
+BodyType.s: BodyType.cpp.s
+
+.PHONY : BodyType.s
+
+# target to generate assembly for a file
+BodyType.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.s
+.PHONY : BodyType.cpp.s
+
+Entity.o: Entity.cpp.o
+
+.PHONY : Entity.o
+
+# target to build an object file
+Entity.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o
+.PHONY : Entity.cpp.o
+
+Entity.i: Entity.cpp.i
+
+.PHONY : Entity.i
+
+# target to preprocess a source file
+Entity.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.i
+.PHONY : Entity.cpp.i
+
+Entity.s: Entity.cpp.s
+
+.PHONY : Entity.s
+
+# target to generate assembly for a file
+Entity.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.s
+.PHONY : Entity.cpp.s
+
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
+Vector.o: Vector.cpp.o
+
+.PHONY : Vector.o
+
+# target to build an object file
+Vector.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o
+.PHONY : Vector.cpp.o
+
+Vector.i: Vector.cpp.i
+
+.PHONY : Vector.i
+
+# target to preprocess a source file
+Vector.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.i
+.PHONY : Vector.cpp.i
+
+Vector.s: Vector.cpp.s
+
+.PHONY : Vector.s
+
+# target to generate assembly for a file
+Vector.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.s
+.PHONY : Vector.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Regin_mountain_of_treasures"
+	@echo "... Body.o"
+	@echo "... Body.i"
+	@echo "... Body.s"
+	@echo "... BodyType.o"
+	@echo "... BodyType.i"
+	@echo "... BodyType.s"
+	@echo "... Entity.o"
+	@echo "... Entity.i"
+	@echo "... Entity.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
+	@echo "... Vector.o"
+	@echo "... Vector.i"
+	@echo "... Vector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

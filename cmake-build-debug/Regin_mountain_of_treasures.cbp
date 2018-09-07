@@ -84,6 +84,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Body.cpp">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Body.h">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/BodyType.cpp">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/BodyType.h">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Entity.cpp">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Entity.h">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Point.cpp">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Point.h">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Vector.cpp">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Vector.h">
+			<Option target="Regin_mountain_of_treasures"/>
+		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/main.cpp">
 			<Option target="Regin_mountain_of_treasures"/>
 		</Unit>

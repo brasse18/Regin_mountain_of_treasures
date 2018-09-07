@@ -81,17 +81,147 @@ CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o.provides: CMakeFiles/Regin
 CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o.provides.build: CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o
 
 
+CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o: CMakeFiles/Regin_mountain_of_treasures.dir/flags.make
+CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o: ../Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o"
+	/usr/lib/hardening-wrapper/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o -c /home/brasse/Regin-mountain-of-treasures/Vector.cpp
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.i"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/Vector.cpp > CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.i
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.s"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/Vector.cpp -o CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.s
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o.requires
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o.provides: CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o.provides
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o.provides.build: CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o
+
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o: CMakeFiles/Regin_mountain_of_treasures.dir/flags.make
+CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o: ../Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o"
+	/usr/lib/hardening-wrapper/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o -c /home/brasse/Regin-mountain-of-treasures/Point.cpp
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.i"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/Point.cpp > CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.i
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.s"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/Point.cpp -o CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.s
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o.requires
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o.provides: CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o.provides
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o.provides.build: CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o
+
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o: CMakeFiles/Regin_mountain_of_treasures.dir/flags.make
+CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o: ../Body.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o"
+	/usr/lib/hardening-wrapper/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o -c /home/brasse/Regin-mountain-of-treasures/Body.cpp
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.i"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/Body.cpp > CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.i
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.s"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/Body.cpp -o CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.s
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o.requires
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o.provides: CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o.provides
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o.provides.build: CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o
+
+
+CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o: CMakeFiles/Regin_mountain_of_treasures.dir/flags.make
+CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o: ../BodyType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o"
+	/usr/lib/hardening-wrapper/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o -c /home/brasse/Regin-mountain-of-treasures/BodyType.cpp
+
+CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.i"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/BodyType.cpp > CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.i
+
+CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.s"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/BodyType.cpp -o CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.s
+
+CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o.requires
+
+CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o.provides: CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o.provides
+
+CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o.provides.build: CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o
+
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o: CMakeFiles/Regin_mountain_of_treasures.dir/flags.make
+CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o: ../Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o"
+	/usr/lib/hardening-wrapper/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o -c /home/brasse/Regin-mountain-of-treasures/Entity.cpp
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.i"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/Entity.cpp > CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.i
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.s"
+	/usr/lib/hardening-wrapper/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/Entity.cpp -o CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.s
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o.requires
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o.provides: CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o.provides
+
+CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o.provides.build: CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o
+
+
 # Object files for target Regin_mountain_of_treasures
 Regin_mountain_of_treasures_OBJECTS = \
-"CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o"
+"CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o" \
+"CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o" \
+"CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o" \
+"CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o" \
+"CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o" \
+"CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o"
 
 # External object files for target Regin_mountain_of_treasures
 Regin_mountain_of_treasures_EXTERNAL_OBJECTS =
 
 Regin_mountain_of_treasures: CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o
+Regin_mountain_of_treasures: CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o
+Regin_mountain_of_treasures: CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o
+Regin_mountain_of_treasures: CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o
+Regin_mountain_of_treasures: CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o
+Regin_mountain_of_treasures: CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o
 Regin_mountain_of_treasures: CMakeFiles/Regin_mountain_of_treasures.dir/build.make
 Regin_mountain_of_treasures: CMakeFiles/Regin_mountain_of_treasures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Regin_mountain_of_treasures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Regin_mountain_of_treasures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Regin_mountain_of_treasures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +230,11 @@ CMakeFiles/Regin_mountain_of_treasures.dir/build: Regin_mountain_of_treasures
 .PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/build
 
 CMakeFiles/Regin_mountain_of_treasures.dir/requires: CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o.requires
+CMakeFiles/Regin_mountain_of_treasures.dir/requires: CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o.requires
+CMakeFiles/Regin_mountain_of_treasures.dir/requires: CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o.requires
+CMakeFiles/Regin_mountain_of_treasures.dir/requires: CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o.requires
+CMakeFiles/Regin_mountain_of_treasures.dir/requires: CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o.requires
+CMakeFiles/Regin_mountain_of_treasures.dir/requires: CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o.requires
 
 .PHONY : CMakeFiles/Regin_mountain_of_treasures.dir/requires
 
