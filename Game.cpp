@@ -12,12 +12,17 @@
 
 
 Game::Game() {
+
+    SDL_DisplayMode DM;
+    SDL_GetCurrentDisplayMode(0, &DM);
+    //SCREEN_WIDTH = (DM.w/2);
+    //SCREEN_HEIGHT = (DM.h/2);
+
     SDL_Init(0);
     SDL_CreateWindowAndRenderer(SCREEN_WIDTH, SCREEN_HEIGHT, 0, &window, &renderer);
     SDL_SetWindowTitle(window, gameTitel);
     TTF_Init();
     running = true;
-    count = 0;
 
     gube.setDest(50, 50, 100, 100);
     gube.setSource(0, 0, 100, 100);
@@ -43,14 +48,13 @@ void Game::loop() {
         if(lastFrame >= (lastTime+1000)) {
             lastTime=lastFrame;
             frameCount=0;
-            count++;
         }
+
+
 
         render();
         input();
         update();
-
-        if(count>3) running=false;
     }
 }
 
@@ -59,15 +63,37 @@ void Game::update() {
 }
 
 void Game::input() {
+    SDL_Event e;
+    while (SDL_PollEvent(&e))
+    {
+        if (e.type == SDL_QUIT) {running = false; cout << "Quit Game" << endl;}
+        if (e.type == SDL_KEYDOWN) {
+            if (e.key.keysym.sym == SDLK_ESCAPE) running=false;
+            if (e.key.keysym.sym == SDLK_w) {cout << "Key w down" << endl;}
+        }
+        if (e.type == SDL_KEYUP) {
+            if (e.key.keysym.sym == SDLK_w) {cout << "Key w up" << endl; gube.move(0, -10);}
+            if (e.key.keysym.sym == SDLK_s) {cout << "Key s up" << endl; gube.move(0, 10);}
+
+            if (e.key.keysym.sym == SDLK_d) {cout << "Key d up" << endl; gube.move(10, 0);}
+            if (e.key.keysym.sym == SDLK_a) {cout << "Key a up" << endl; gube.move(-10, 0);}
+        }
+        SDL_GetMouseState(&mousex, &mousey);
+        if (e.type == SDL_MOUSEBUTTONDOWN)
+        {
+            if (e.key.keysym.sym == SDL_BUTTON_LEFT) {}
+            cout << "X: " << mousex << " Y: " << mousey << endl;
+        }
+    }
 
 }
 
 void Game::render() {
-    SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+    SDL_SetRenderDrawColor(renderer, 100, 100, 100, 100);
     SDL_Rect rect;
     rect.x=rect.y=0;
-    rect.w=360;
-    rect.h=240;
+    rect.w=SCREEN_WIDTH;
+    rect.h=SCREEN_HEIGHT;
     SDL_RenderFillRect(renderer, &rect);
 
     draw(gube);
@@ -89,7 +115,7 @@ void Game::draw(Object o) {
 }
 
 void Game::draw(const char* msg, int x, int y, int r, int g, int b, int size, int fontNr) {
-    
+
     string fontFile = "";
     switch(fontNr) {
         case 1:

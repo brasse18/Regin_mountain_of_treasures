@@ -22,8 +22,9 @@ private:
     SDL_Window* window;
 
     bool running;
-    int count;
     int frameCount, timerFPS, lastFrame;
+
+    int mousex, mousey;
 
     Object gube;
 

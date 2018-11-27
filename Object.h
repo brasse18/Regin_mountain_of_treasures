@@ -25,6 +25,8 @@ public:
     void setSource(int x, int y, int w, int h);
     void setImage(string filename, SDL_Renderer* renderer);
 
+    void move(int x, int y);
+
 };
 
 
