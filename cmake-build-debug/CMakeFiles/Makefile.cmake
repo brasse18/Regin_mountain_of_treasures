@@ -45,5 +45,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Regin_mountain_of_treasures.dir/DependInfo.cmake"
+  "CMakeFiles/Regin-mountain-of-treasures.dir/DependInfo.cmake"
   )

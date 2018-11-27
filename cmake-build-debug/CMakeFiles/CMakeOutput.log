@@ -1,6 +1,6 @@
-The system is: Linux - 4.14.57-1-MANJARO - x86_64
+The system is: Linux - 4.14.71-1-MANJARO - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/lib/hardening-wrapper/bin/cc 
+Compiler: /usr/bin/cc 
 Build flags: 
 Id flags:  
 
@@ -13,7 +13,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 The C compiler identification is GNU, found in "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/lib/hardening-wrapper/bin/c++ 
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags:  
 
@@ -28,40 +28,40 @@ The CXX compiler identification is GNU, found in "/home/brasse/Regin-mountain-of
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d0221/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d0221.dir/build.make CMakeFiles/cmTC_d0221.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ed5fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed5fb.dir/build.make CMakeFiles/cmTC_ed5fb.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0221.dir/testCCompiler.c.o
-/usr/lib/hardening-wrapper/bin/cc    -o CMakeFiles/cmTC_d0221.dir/testCCompiler.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d0221
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0221.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/cc      CMakeFiles/cmTC_d0221.dir/testCCompiler.c.o  -o cmTC_d0221 
+Building C object CMakeFiles/cmTC_ed5fb.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ed5fb.dir/testCCompiler.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ed5fb
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed5fb.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ed5fb.dir/testCCompiler.c.o  -o cmTC_ed5fb 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b6ce5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b6ce5.dir/build.make CMakeFiles/cmTC_b6ce5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_47e88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47e88.dir/build.make CMakeFiles/cmTC_47e88.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o
-/usr/lib/hardening-wrapper/bin/cc    -o CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_b6ce5
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ce5.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/cc     -v CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o  -o cmTC_b6ce5 
+Building C object CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_47e88
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47e88.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o  -o cmTC_47e88 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
 Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto
 Thread model: posix
-gcc version 8.1.1 20180531 (GCC) 
-COMPILER_PATH=/usr/lib/hardening-wrapper/bin/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/hardening-wrapper/bin/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-B' '/usr/lib/hardening-wrapper/bin' '-fPIE' '-pie' '-fstack-check=specific' '-fstack-protector-strong' '-v' '-o' 'cmTC_b6ce5' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOW95Ts.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b6ce5 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/hardening-wrapper/bin -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-B' '/usr/lib/hardening-wrapper/bin' '-fPIE' '-pie' '-fstack-check=specific' '-fstack-protector-strong' '-v' '-o' 'cmTC_b6ce5' '-mtune=generic' '-march=x86-64'
+gcc version 8.2.1 20180831 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47e88' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0OeFBC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47e88 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47e88' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -69,30 +69,30 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b6ce5/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b6ce5.dir/build.make CMakeFiles/cmTC_b6ce5.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_47e88/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_47e88.dir/build.make CMakeFiles/cmTC_47e88.dir/build]
   ignore line: [make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/lib/hardening-wrapper/bin/cc    -o CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_b6ce5]
-  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ce5.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/hardening-wrapper/bin/cc     -v CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o  -o cmTC_b6ce5 ]
+  ignore line: [Building C object CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_47e88]
+  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47e88.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o  -o cmTC_47e88 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
   ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.1 20180531 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/hardening-wrapper/bin/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/hardening-wrapper/bin/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-B' '/usr/lib/hardening-wrapper/bin' '-fPIE' '-pie' '-fstack-check=specific' '-fstack-protector-strong' '-v' '-o' 'cmTC_b6ce5' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOW95Ts.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b6ce5 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/hardening-wrapper/bin -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2] ==> ignore
+  ignore line: [gcc version 8.2.1 20180831 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47e88' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0OeFBC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47e88 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccOW95Ts.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0OeFBC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -107,17 +107,16 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b6ce5] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/hardening-wrapper/bin] ==> dir [/usr/lib/hardening-wrapper/bin]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib]
+    arg [cmTC_47e88] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..]
-    arg [CMakeFiles/cmTC_b6ce5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
+    arg [CMakeFiles/cmTC_47e88.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -127,16 +126,15 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/hardening-wrapper/bin] ==> [/usr/lib/hardening-wrapper/bin]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib/hardening-wrapper/bin;/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1;/usr/lib;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1;/usr/lib;/lib]
   implicit fwks: []
 
 
@@ -145,14 +143,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_81c8b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_81c8b.dir/build.make CMakeFiles/cmTC_81c8b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b6ae8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6ae8.dir/build.make CMakeFiles/cmTC_b6ae8.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_81c8b.dir/feature_tests.c.o
-/usr/lib/hardening-wrapper/bin/cc   -std=c11 -o CMakeFiles/cmTC_81c8b.dir/feature_tests.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_81c8b
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81c8b.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/cc      CMakeFiles/cmTC_81c8b.dir/feature_tests.c.o  -o cmTC_81c8b 
+Building C object CMakeFiles/cmTC_b6ae8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b6ae8.dir/feature_tests.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b6ae8
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ae8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b6ae8.dir/feature_tests.c.o  -o cmTC_b6ae8 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -165,14 +163,14 @@ make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_99c87/fast"
-/usr/bin/make -f CMakeFiles/cmTC_99c87.dir/build.make CMakeFiles/cmTC_99c87.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e8689/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8689.dir/build.make CMakeFiles/cmTC_e8689.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_99c87.dir/feature_tests.c.o
-/usr/lib/hardening-wrapper/bin/cc   -std=c99 -o CMakeFiles/cmTC_99c87.dir/feature_tests.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_99c87
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99c87.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/cc      CMakeFiles/cmTC_99c87.dir/feature_tests.c.o  -o cmTC_99c87 
+Building C object CMakeFiles/cmTC_e8689.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e8689.dir/feature_tests.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e8689
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8689.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e8689.dir/feature_tests.c.o  -o cmTC_e8689 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -185,14 +183,14 @@ make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b4164/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b4164.dir/build.make CMakeFiles/cmTC_b4164.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_61c2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61c2b.dir/build.make CMakeFiles/cmTC_61c2b.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b4164.dir/feature_tests.c.o
-/usr/lib/hardening-wrapper/bin/cc   -std=c90 -o CMakeFiles/cmTC_b4164.dir/feature_tests.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b4164
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4164.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/cc      CMakeFiles/cmTC_b4164.dir/feature_tests.c.o  -o cmTC_b4164 
+Building C object CMakeFiles/cmTC_61c2b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_61c2b.dir/feature_tests.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_61c2b
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61c2b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_61c2b.dir/feature_tests.c.o  -o cmTC_61c2b 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -203,40 +201,40 @@ make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f2826/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f2826.dir/build.make CMakeFiles/cmTC_f2826.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_05296/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05296.dir/build.make CMakeFiles/cmTC_05296.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f2826.dir/testCXXCompiler.cxx.o
-/usr/lib/hardening-wrapper/bin/c++     -o CMakeFiles/cmTC_f2826.dir/testCXXCompiler.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f2826
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2826.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/c++       CMakeFiles/cmTC_f2826.dir/testCXXCompiler.cxx.o  -o cmTC_f2826 
+Building CXX object CMakeFiles/cmTC_05296.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_05296.dir/testCXXCompiler.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_05296
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05296.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_05296.dir/testCXXCompiler.cxx.o  -o cmTC_05296 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b5d81/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b5d81.dir/build.make CMakeFiles/cmTC_b5d81.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_84d33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84d33.dir/build.make CMakeFiles/cmTC_84d33.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o
-/usr/lib/hardening-wrapper/bin/c++     -o CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b5d81
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5d81.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/c++      -v CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b5d81 
+Building CXX object CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_84d33
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84d33.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_84d33 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
 Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto
 Thread model: posix
-gcc version 8.1.1 20180531 (GCC) 
-COMPILER_PATH=/usr/lib/hardening-wrapper/bin/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/hardening-wrapper/bin/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-B' '/usr/lib/hardening-wrapper/bin' '-fPIE' '-pie' '-fstack-check=specific' '-fstack-protector-strong' '-v' '-o' 'cmTC_b5d81' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccasHwci.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b5d81 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/hardening-wrapper/bin -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-B' '/usr/lib/hardening-wrapper/bin' '-fPIE' '-pie' '-fstack-check=specific' '-fstack-protector-strong' '-v' '-o' 'cmTC_b5d81' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gcc version 8.2.1 20180831 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84d33' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5a5IG0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_84d33 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84d33' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -244,30 +242,30 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b5d81/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b5d81.dir/build.make CMakeFiles/cmTC_b5d81.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_84d33/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_84d33.dir/build.make CMakeFiles/cmTC_84d33.dir/build]
   ignore line: [make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/lib/hardening-wrapper/bin/c++     -o CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b5d81]
-  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5d81.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/hardening-wrapper/bin/c++      -v CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b5d81 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_84d33]
+  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84d33.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_84d33 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
   ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.1 20180531 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/hardening-wrapper/bin/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/hardening-wrapper/bin/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-B' '/usr/lib/hardening-wrapper/bin' '-fPIE' '-pie' '-fstack-check=specific' '-fstack-protector-strong' '-v' '-o' 'cmTC_b5d81' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccasHwci.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b5d81 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/hardening-wrapper/bin -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2] ==> ignore
+  ignore line: [gcc version 8.2.1 20180831 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84d33' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5a5IG0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_84d33 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccasHwci.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5a5IG0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -282,17 +280,16 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b5d81] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/hardening-wrapper/bin] ==> dir [/usr/lib/hardening-wrapper/bin]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib]
+    arg [cmTC_84d33] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..]
-    arg [CMakeFiles/cmTC_b5d81.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
+    arg [CMakeFiles/cmTC_84d33.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -300,16 +297,15 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/hardening-wrapper/bin] ==> [/usr/lib/hardening-wrapper/bin]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/hardening-wrapper/bin;/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1;/usr/lib;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1;/usr/lib;/lib]
   implicit fwks: []
 
 
@@ -318,14 +314,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_63d98/fast"
-/usr/bin/make -f CMakeFiles/cmTC_63d98.dir/build.make CMakeFiles/cmTC_63d98.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2705f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2705f.dir/build.make CMakeFiles/cmTC_2705f.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_63d98.dir/feature_tests.cxx.o
-/usr/lib/hardening-wrapper/bin/c++    -std=c++1z -o CMakeFiles/cmTC_63d98.dir/feature_tests.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_63d98
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63d98.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/c++       CMakeFiles/cmTC_63d98.dir/feature_tests.cxx.o  -o cmTC_63d98 
+Building CXX object CMakeFiles/cmTC_2705f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_2705f.dir/feature_tests.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2705f
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2705f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2705f.dir/feature_tests.cxx.o  -o cmTC_2705f 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -391,14 +387,14 @@ make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f32fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f32fd.dir/build.make CMakeFiles/cmTC_f32fd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3f7ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f7ab.dir/build.make CMakeFiles/cmTC_3f7ab.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f32fd.dir/feature_tests.cxx.o
-/usr/lib/hardening-wrapper/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f32fd.dir/feature_tests.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f32fd
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f32fd.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/c++       CMakeFiles/cmTC_f32fd.dir/feature_tests.cxx.o  -o cmTC_f32fd 
+Building CXX object CMakeFiles/cmTC_3f7ab.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_3f7ab.dir/feature_tests.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3f7ab
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f7ab.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3f7ab.dir/feature_tests.cxx.o  -o cmTC_3f7ab 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -464,14 +460,14 @@ make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_26a50/fast"
-/usr/bin/make -f CMakeFiles/cmTC_26a50.dir/build.make CMakeFiles/cmTC_26a50.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5729b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5729b.dir/build.make CMakeFiles/cmTC_5729b.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_26a50.dir/feature_tests.cxx.o
-/usr/lib/hardening-wrapper/bin/c++    -std=c++11 -o CMakeFiles/cmTC_26a50.dir/feature_tests.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_26a50
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a50.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/c++       CMakeFiles/cmTC_26a50.dir/feature_tests.cxx.o  -o cmTC_26a50 
+Building CXX object CMakeFiles/cmTC_5729b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_5729b.dir/feature_tests.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5729b
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5729b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_5729b.dir/feature_tests.cxx.o  -o cmTC_5729b 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -537,14 +533,14 @@ make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aa8d2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa8d2.dir/build.make CMakeFiles/cmTC_aa8d2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4f544/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f544.dir/build.make CMakeFiles/cmTC_4f544.dir/build
 make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aa8d2.dir/feature_tests.cxx.o
-/usr/lib/hardening-wrapper/bin/c++    -std=c++98 -o CMakeFiles/cmTC_aa8d2.dir/feature_tests.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_aa8d2
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa8d2.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/c++       CMakeFiles/cmTC_aa8d2.dir/feature_tests.cxx.o  -o cmTC_aa8d2 
+Building CXX object CMakeFiles/cmTC_4f544.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_4f544.dir/feature_tests.cxx.o -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4f544
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f544.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4f544.dir/feature_tests.cxx.o  -o cmTC_4f544 
 make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -605,31 +601,3 @@ make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
-Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_9c96e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9c96e.dir/build.make CMakeFiles/cmTC_9c96e.dir/build
-make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9c96e.dir/CheckIncludeFile.c.o
-/usr/lib/hardening-wrapper/bin/cc    -o CMakeFiles/cmTC_9c96e.dir/CheckIncludeFile.c.o   -c /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_9c96e
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c96e.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/cc      CMakeFiles/cmTC_9c96e.dir/CheckIncludeFile.c.o  -o cmTC_9c96e 
-make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_f81eb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f81eb.dir/build.make CMakeFiles/cmTC_f81eb.dir/build
-make[1]: Entering directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f81eb.dir/CheckFunctionExists.c.o
-/usr/lib/hardening-wrapper/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f81eb.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f81eb
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f81eb.dir/link.txt --verbose=1
-/usr/lib/hardening-wrapper/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f81eb.dir/CheckFunctionExists.c.o  -o cmTC_f81eb -lpthread 
-make[1]: Leaving directory '/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-

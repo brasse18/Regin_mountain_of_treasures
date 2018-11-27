@@ -14,7 +14,7 @@ class Entity {
 private:
     Body body;
 public:
-    Entity(Body body)
+    Entity(Body body);
 
 
 };

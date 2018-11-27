@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/brasse/Regin-mountain-of-treasures/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/opt/clion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,152 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Regin_mountain_of_treasures
+# Target rules for targets named Regin-mountain-of-treasures
 
 # Build rule for target.
-Regin_mountain_of_treasures: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Regin_mountain_of_treasures
-.PHONY : Regin_mountain_of_treasures
+Regin-mountain-of-treasures: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Regin-mountain-of-treasures
+.PHONY : Regin-mountain-of-treasures
 
 # fast build rule for target.
-Regin_mountain_of_treasures/fast:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/build
-.PHONY : Regin_mountain_of_treasures/fast
+Regin-mountain-of-treasures/fast:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/build
+.PHONY : Regin-mountain-of-treasures/fast
 
-Body.o: Body.cpp.o
+Game.o: Game.cpp.o
 
-.PHONY : Body.o
-
-# target to build an object file
-Body.cpp.o:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.o
-.PHONY : Body.cpp.o
-
-Body.i: Body.cpp.i
-
-.PHONY : Body.i
-
-# target to preprocess a source file
-Body.cpp.i:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.i
-.PHONY : Body.cpp.i
-
-Body.s: Body.cpp.s
-
-.PHONY : Body.s
-
-# target to generate assembly for a file
-Body.cpp.s:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Body.cpp.s
-.PHONY : Body.cpp.s
-
-BodyType.o: BodyType.cpp.o
-
-.PHONY : BodyType.o
+.PHONY : Game.o
 
 # target to build an object file
-BodyType.cpp.o:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.o
-.PHONY : BodyType.cpp.o
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o
+.PHONY : Game.cpp.o
 
-BodyType.i: BodyType.cpp.i
+Game.i: Game.cpp.i
 
-.PHONY : BodyType.i
+.PHONY : Game.i
 
 # target to preprocess a source file
-BodyType.cpp.i:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.i
-.PHONY : BodyType.cpp.i
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.i
+.PHONY : Game.cpp.i
 
-BodyType.s: BodyType.cpp.s
+Game.s: Game.cpp.s
 
-.PHONY : BodyType.s
+.PHONY : Game.s
 
 # target to generate assembly for a file
-BodyType.cpp.s:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/BodyType.cpp.s
-.PHONY : BodyType.cpp.s
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.s
+.PHONY : Game.cpp.s
 
-Entity.o: Entity.cpp.o
+Object.o: Object.cpp.o
 
-.PHONY : Entity.o
+.PHONY : Object.o
 
 # target to build an object file
-Entity.cpp.o:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.o
-.PHONY : Entity.cpp.o
+Object.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o
+.PHONY : Object.cpp.o
 
-Entity.i: Entity.cpp.i
+Object.i: Object.cpp.i
 
-.PHONY : Entity.i
-
-# target to preprocess a source file
-Entity.cpp.i:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.i
-.PHONY : Entity.cpp.i
-
-Entity.s: Entity.cpp.s
-
-.PHONY : Entity.s
-
-# target to generate assembly for a file
-Entity.cpp.s:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Entity.cpp.s
-.PHONY : Entity.cpp.s
-
-Point.o: Point.cpp.o
-
-.PHONY : Point.o
-
-# target to build an object file
-Point.cpp.o:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.o
-.PHONY : Point.cpp.o
-
-Point.i: Point.cpp.i
-
-.PHONY : Point.i
+.PHONY : Object.i
 
 # target to preprocess a source file
-Point.cpp.i:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.i
-.PHONY : Point.cpp.i
+Object.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.i
+.PHONY : Object.cpp.i
 
-Point.s: Point.cpp.s
+Object.s: Object.cpp.s
 
-.PHONY : Point.s
-
-# target to generate assembly for a file
-Point.cpp.s:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Point.cpp.s
-.PHONY : Point.cpp.s
-
-Vector.o: Vector.cpp.o
-
-.PHONY : Vector.o
-
-# target to build an object file
-Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.o
-.PHONY : Vector.cpp.o
-
-Vector.i: Vector.cpp.i
-
-.PHONY : Vector.i
-
-# target to preprocess a source file
-Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.i
-.PHONY : Vector.cpp.i
-
-Vector.s: Vector.cpp.s
-
-.PHONY : Vector.s
+.PHONY : Object.s
 
 # target to generate assembly for a file
-Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/Vector.cpp.s
-.PHONY : Vector.cpp.s
+Object.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.s
+.PHONY : Object.cpp.s
 
 main.o: main.cpp.o
 
@@ -264,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -273,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -282,7 +201,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Regin_mountain_of_treasures.dir/build.make CMakeFiles/Regin_mountain_of_treasures.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -291,24 +210,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Regin_mountain_of_treasures"
-	@echo "... Body.o"
-	@echo "... Body.i"
-	@echo "... Body.s"
-	@echo "... BodyType.o"
-	@echo "... BodyType.i"
-	@echo "... BodyType.s"
-	@echo "... Entity.o"
-	@echo "... Entity.i"
-	@echo "... Entity.s"
-	@echo "... Point.o"
-	@echo "... Point.i"
-	@echo "... Point.s"
-	@echo "... Vector.o"
-	@echo "... Vector.i"
-	@echo "... Vector.s"
+	@echo "... edit_cache"
+	@echo "... Regin-mountain-of-treasures"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Object.o"
+	@echo "... Object.i"
+	@echo "... Object.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
