@@ -4,42 +4,46 @@
 
 #include "Button.h"
 
-Button::Button(string msg, int textX, int textY, SDL_Color color, TTF_Font *font) {
+Button::Button(const char* msg, int textX, int textY, SDL_Color color, TTF_Font *font, Object object) {
     this->msg = msg;
     this->font = font;
     this->color = color;
     this->textPos.x = textX;
     this->textPos.y = textY;
+    this->object = object;
+
+
+
+
+
 
 }
 
 void Button::draw(SDL_Renderer *renderer) {
-    cout << "b draw obj" << endl;
-    objekt.draw(renderer);
-    cout << "a draw obj" << endl;
+    object.draw(renderer);
+    //drawText(renderer);
 
-
-    SDL_Rect rect;
-    surf = TTF_RenderText_Solid(font, msg.c_str(), color);
-    tex = SDL_CreateTextureFromSurface(renderer, surf);
-
-    cout << "a font and font to tex" << endl;
-
-    rect.x = objekt.getDest().x + textPos.x;
-    rect.y = objekt.getDest().y + textPos.y;
-    rect.h=surf->h;
-    rect.w=surf->w;
-
-    cout << "a rec pos" << endl;
-
-    SDL_FreeSurface(surf);
-    cout << "a free surf" << endl;
-    SDL_RenderCopy(renderer, tex, NULL, &rect);
-    cout << "a render text" << endl;
-    SDL_DestroyTexture(tex);
-    TTF_CloseFont(font);
 }
 
 Button::Button() {
 
+}
+
+void Button::drawText(SDL_Renderer *renderer) {
+
+    surf = TTF_RenderText_Solid(font, msg, color);
+    tex = SDL_CreateTextureFromSurface(renderer, surf);
+
+    textRect.x = object.getDest().x + textPos.x;
+    textRect.y = object.getDest().y + textPos.y;
+    textRect.h=surf->h;
+    textRect.w=surf->w;
+
+    SDL_FreeSurface(surf);
+    SDL_RenderCopy(renderer, tex, NULL, &textRect);
+}
+
+Button::~Button() {
+    SDL_DestroyTexture(tex);
+    TTF_CloseFont(font);
 }

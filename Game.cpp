@@ -15,6 +15,8 @@
 Game::Game() {
 
     SDL_Init(0);
+    nrObjects = 0;
+    nrButtons = 0;
     grid = *InitRect(&grid, 0, 0, 10, 10);
 
     SDL_CreateWindowAndRenderer(SCREEN_WIDTH, SCREEN_HEIGHT, 0, &window, &renderer);
@@ -43,28 +45,29 @@ Game::Game() {
     images[1] = Image(imageFiles[1], imageRect[1], renderer);
 
     imageFiles[2] = "resource/image/exitButton.png";
-    imageRect[2] = *InitRect(&imageRect[0],10, 0, 900, 500);
-    images[2] = Image(imageFiles[1], imageRect[1], renderer);
+    imageRect[2] = *InitRect(&imageRect[0],0, 0, 512, 512);
+    images[2] = Image(imageFiles[2], imageRect[2], renderer);
 
     SDL_Rect playerDest;
     playerDest = *InitRect(&playerDest, 5, 5, 10, 10);
 
     objects[0] = Object(grid, playerDest, images[1]);
+    nrObjects++;
 
     fontFiles[0] = "resource/font/Sans.ttf";
     fontFiles[1] = "resource/font/Runsten.ttf";
 
     SDL_Rect exitButtonDest;
-    exitButtonDest = *InitRect(&exitButtonDest, 50, 200, 450, 250);
+    exitButtonDest = *InitRect(&exitButtonDest, 20, 20, 10, 10);
+    Object exitButtonObject = Object(grid, exitButtonDest, images[2]);
+
+    //objects[1] = exitButtonObject;
+
     SDL_Color tempColor;
-    tempColor = *InitColor(&tempColor,255,255,255,255);
+    tempColor = *InitColor(&tempColor,20,20,20,255);
     TTF_Font *tempFont = TTF_OpenFont(fontFiles[0].c_str(), 24);
-    butons[0] = Button("Exit", 125, 220, tempColor, tempFont);
-
-
-    //gube.setDest(50, 50, 50, 50);
-    //gube.setSource(0, 0, 100, 100);
-    //gube.setImage("resource/image/star.png", renderer);
+    buttons[0] = Button("Exit", 125, 220, tempColor, tempFont, exitButtonObject);
+    nrButtons++;
 
 
 
@@ -89,8 +92,6 @@ void Game::loop() {
             lastTime=lastFrame;
             frameCount=0;
         }
-
-
 
         render();
         input();
@@ -147,12 +148,13 @@ void Game::render() {
     rect.h=SCREEN_HEIGHT;
     SDL_RenderFillRect(renderer, &rect);
 
-
-    objects[0].draw(renderer);
-    butons[0].draw(renderer);
-
+    for (int i = 0; i < nrButtons; ++i) { buttons[i].draw(renderer); }
 
     draw("Test av font", 20, 30, 0, 255, 0, 24, 1);
+
+    for (int i = 0; i < nrObjects; ++i) { objects[i].draw(renderer); }
+
+
 
     frameCount++;
     int timerFPS = SDL_GetTicks()-lastFrame;

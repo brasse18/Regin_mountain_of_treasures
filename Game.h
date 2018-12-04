@@ -28,11 +28,17 @@ private:
 
     int mousex, mousey;
     SDL_Rect grid;
+
+    int nrObjects;
     Object objects[10];
-    Button butons[2];
+
+    int nrButtons;
+    Button buttons[2];
+
     Image images[3];
     string imageFiles[3];
     SDL_Rect imageRect[3];
+
     string fontFiles[2];
 
 public:

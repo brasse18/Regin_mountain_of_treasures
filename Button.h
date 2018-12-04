@@ -16,19 +16,22 @@
 
 class Button {
 private:
-    Object objekt;
+    Object object;
     TTF_Font *font;
     SDL_Color color;
-    string msg;
+    const char* msg;
     SDL_Surface* surf;
     SDL_Texture* tex;
     SDL_Point textPos;
+    SDL_Rect textRect;
 
 
 public:
-    Button(string msg, int textX, int textY, SDL_Color color, TTF_Font *font);
+    Button(const char* msg, int textX, int textY, SDL_Color color, TTF_Font *font, Object objekt);
     Button();
+    ~Button();
     void draw(SDL_Renderer* renderer);
+    void drawText(SDL_Renderer* renderer);
 
 
 
