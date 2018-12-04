@@ -9,7 +9,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
 
 #Vector.cpp Vector.h Point.cpp Point.h Body.cpp Body.h BodyType.cpp BodyType.h Entity.cpp Entity.h
 
-set(SOURCE_FILES main.cpp Game.cpp Game.h Object.cpp Object.h)
+set(SOURCE_FILES main.cpp Game.cpp Game.h Object.cpp Object.h Image.cpp Image.h Button.cpp Button.h)
 add_executable(Regin-mountain-of-treasures ${SOURCE_FILES})
 
 target_link_libraries(Regin-mountain-of-treasures SDL2 SDL2_image SDL2_ttf)

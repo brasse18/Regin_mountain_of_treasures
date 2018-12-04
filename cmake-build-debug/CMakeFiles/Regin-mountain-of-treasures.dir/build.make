@@ -129,11 +129,61 @@ CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o.provides: CMakeFiles/Reg
 CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o.provides.build: CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o
 
 
+CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o: CMakeFiles/Regin-mountain-of-treasures.dir/flags.make
+CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o: ../Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o -c /home/brasse/Regin-mountain-of-treasures/Image.cpp
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/Image.cpp > CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.i
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/Image.cpp -o CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.s
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o.requires
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o.provides: CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o.provides
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o.provides.build: CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o
+
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o: CMakeFiles/Regin-mountain-of-treasures.dir/flags.make
+CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o: ../Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o -c /home/brasse/Regin-mountain-of-treasures/Button.cpp
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/Button.cpp > CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.i
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/Button.cpp -o CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.s
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.requires
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.provides: CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.provides
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.provides.build: CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o
+
+
 # Object files for target Regin-mountain-of-treasures
 Regin__mountain__of__treasures_OBJECTS = \
 "CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o" \
 "CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o" \
-"CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o"
+"CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o" \
+"CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o" \
+"CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o"
 
 # External object files for target Regin-mountain-of-treasures
 Regin__mountain__of__treasures_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ Regin__mountain__of__treasures_EXTERNAL_OBJECTS =
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o
+Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o
+Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/build.make
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Regin-mountain-of-treasures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Regin-mountain-of-treasures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Regin-mountain-of-treasures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/Regin-mountain-of-treasures.dir/build: Regin-mountain-of-treasures
 CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o.requires
 CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o.requires
 CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o.requires
+CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o.requires
+CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.requires
 
 .PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/requires
 

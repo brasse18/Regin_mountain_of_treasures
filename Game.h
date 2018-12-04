@@ -7,6 +7,8 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
 #include "Object.h"
+#include "Button.h"
+#include "Image.h"
 
 #ifndef REGIN_MOUNTAIN_OF_TREASURES_GAME_H
 #define REGIN_MOUNTAIN_OF_TREASURES_GAME_H
@@ -25,8 +27,13 @@ private:
     int frameCount, timerFPS, lastFrame;
 
     int mousex, mousey;
-
-    Object gube;
+    SDL_Rect grid;
+    Object objects[10];
+    Button butons[2];
+    Image images[3];
+    string imageFiles[3];
+    SDL_Rect imageRect[3];
+    string fontFiles[2];
 
 public:
     Game();
@@ -38,6 +45,8 @@ public:
     void draw(Object o);
     void draw(const char *msg, int x, int y, int r, int g, int b, int size, int fontNr);
     inline bool fileExist (const std::string& name);
+    SDL_Rect *InitRect(SDL_Rect *Rect, int XPos, int YPos, int Width, int Height);
+    SDL_Color *InitColor(SDL_Color *color, int R, int G, int B, int A);
 };
 
 

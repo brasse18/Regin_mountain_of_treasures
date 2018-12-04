@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Button.cpp">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Button.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Game.cpp">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Game.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Image.cpp">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Image.h">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Object.cpp">

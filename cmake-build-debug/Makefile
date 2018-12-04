@@ -123,6 +123,33 @@ Regin-mountain-of-treasures/fast:
 	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/build
 .PHONY : Regin-mountain-of-treasures/fast
 
+Button.o: Button.cpp.o
+
+.PHONY : Button.o
+
+# target to build an object file
+Button.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o
+.PHONY : Button.cpp.o
+
+Button.i: Button.cpp.i
+
+.PHONY : Button.i
+
+# target to preprocess a source file
+Button.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.i
+.PHONY : Button.cpp.i
+
+Button.s: Button.cpp.s
+
+.PHONY : Button.s
+
+# target to generate assembly for a file
+Button.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.s
+.PHONY : Button.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -149,6 +176,33 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+Image.o: Image.cpp.o
+
+.PHONY : Image.o
+
+# target to build an object file
+Image.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o
+.PHONY : Image.cpp.o
+
+Image.i: Image.cpp.i
+
+.PHONY : Image.i
+
+# target to preprocess a source file
+Image.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.i
+.PHONY : Image.cpp.i
+
+Image.s: Image.cpp.s
+
+.PHONY : Image.s
+
+# target to generate assembly for a file
+Image.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.s
+.PHONY : Image.cpp.s
 
 Object.o: Object.cpp.o
 
@@ -213,9 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Regin-mountain-of-treasures"
+	@echo "... Button.o"
+	@echo "... Button.i"
+	@echo "... Button.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... Image.o"
+	@echo "... Image.i"
+	@echo "... Image.s"
 	@echo "... Object.o"
 	@echo "... Object.i"
 	@echo "... Object.s"
