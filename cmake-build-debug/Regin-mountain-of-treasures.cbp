@@ -106,6 +106,9 @@
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Object.h">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/enum.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/main.cpp">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>

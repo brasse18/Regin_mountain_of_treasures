@@ -65,8 +65,8 @@ Game::Game() {
 
     SDL_Color tempColor;
     tempColor = *InitColor(&tempColor,20,20,20,255);
-    TTF_Font *tempFont = TTF_OpenFont(fontFiles[0].c_str(), 24);
-    buttons[0] = Button("Exit", 125, 220, tempColor, tempFont, exitButtonObject);
+    //TTF_Font *tempFont = TTF_OpenFont(fontFiles[0].c_str(), 24);
+    buttons[0] = Button("Exit", 50, 50, tempColor, fontFiles[0], 24, exitButtonObject, ButtonType ::exit);
     nrButtons++;
 
 
@@ -124,17 +124,15 @@ void Game::input() {
         {
             if (e.key.keysym.sym == SDL_BUTTON_LEFT) {}
             cout << "X: " << mousex << " Y: " << mousey << endl;
-            SDL_DisplayMode DM;
-            SDL_Rect r;
-            //SDL_GetCurrentDisplayMode(0, &DM);
-            SDL_GetDesktopDisplayMode(0, &DM);
 
-            SDL_GetDisplayBounds(0, &r);
-
-            //SCREEN_WIDTH = (DM.w/2);
-            //SCREEN_HEIGHT = (DM.h/2);
-
-            cout << r.w << endl;
+            for (int i = 0; i < nrButtons; ++i) {
+                if (buttons[i].isClickt(mousex, mousey)) {
+                    if(buttons[i].getButtonType() == ButtonType::exit)
+                    {
+                        running=false;
+                    }
+                }
+            }
         }
     }
 

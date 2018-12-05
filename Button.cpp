@@ -4,24 +4,21 @@
 
 #include "Button.h"
 
-Button::Button(const char* msg, int textX, int textY, SDL_Color color, TTF_Font *font, Object object) {
+Button::Button(const char* msg, int textX, int textY, SDL_Color color, string fontFile, int fontSize, Object object, ButtonType buttonType) {
     this->msg = msg;
-    this->font = font;
     this->color = color;
     this->textPos.x = textX;
     this->textPos.y = textY;
     this->object = object;
-
-
-
-
-
+    this->fontFile = fontFile;
+    this->fontsize = fontSize;
+    this->buttonType = buttonType;
 
 }
 
 void Button::draw(SDL_Renderer *renderer) {
     object.draw(renderer);
-    //drawText(renderer);
+    drawText(renderer);
 
 }
 
@@ -31,19 +28,39 @@ Button::Button() {
 
 void Button::drawText(SDL_Renderer *renderer) {
 
+    SDL_Surface* surf;
+    SDL_Texture* tex;
+    TTF_Font *font = TTF_OpenFont(fontFile.c_str(), fontsize);
+
     surf = TTF_RenderText_Solid(font, msg, color);
     tex = SDL_CreateTextureFromSurface(renderer, surf);
 
-    textRect.x = object.getDest().x + textPos.x;
-    textRect.y = object.getDest().y + textPos.y;
+
+    textRect.x = object.getDest().x + textPos.x - surf->w/2;
+    textRect.y = object.getDest().y + textPos.y - surf->h/2;
     textRect.h=surf->h;
     textRect.w=surf->w;
 
     SDL_FreeSurface(surf);
     SDL_RenderCopy(renderer, tex, NULL, &textRect);
+    SDL_DestroyTexture(tex);
+    TTF_CloseFont(font);
 }
 
 Button::~Button() {
-    SDL_DestroyTexture(tex);
-    TTF_CloseFont(font);
+
+}
+
+ButtonType Button::getButtonType() {
+    return buttonType;
+}
+
+click Button::isClickt(int x, int y) {
+    click out = up;
+    if (object.getDest().x >= x &&  object.getDest().y >= y &&
+        object.getDest().h <= y && object.getDest().w <= x ) {
+        out = down;
+    }
+
+    return out;
 }

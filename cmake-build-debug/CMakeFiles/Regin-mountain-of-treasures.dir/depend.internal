@@ -6,12 +6,14 @@ CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o
  /home/brasse/Regin-mountain-of-treasures/Button.h
  /home/brasse/Regin-mountain-of-treasures/Image.h
  /home/brasse/Regin-mountain-of-treasures/Object.h
+ /home/brasse/Regin-mountain-of-treasures/enum.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o
  /home/brasse/Regin-mountain-of-treasures/Button.h
  /home/brasse/Regin-mountain-of-treasures/Game.cpp
  /home/brasse/Regin-mountain-of-treasures/Game.h
  /home/brasse/Regin-mountain-of-treasures/Image.h
  /home/brasse/Regin-mountain-of-treasures/Object.h
+ /home/brasse/Regin-mountain-of-treasures/enum.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o
  /home/brasse/Regin-mountain-of-treasures/Image.cpp
  /home/brasse/Regin-mountain-of-treasures/Image.h
@@ -24,4 +26,5 @@ CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o
  /home/brasse/Regin-mountain-of-treasures/Game.h
  /home/brasse/Regin-mountain-of-treasures/Image.h
  /home/brasse/Regin-mountain-of-treasures/Object.h
+ /home/brasse/Regin-mountain-of-treasures/enum.h
  /home/brasse/Regin-mountain-of-treasures/main.cpp

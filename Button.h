@@ -9,29 +9,35 @@
 
 #include "Image.h"
 #include "Object.h"
+#include "enum.h"
 
 #ifndef REGIN_MOUNTAIN_OF_TREASURES_BUTTON_H
 #define REGIN_MOUNTAIN_OF_TREASURES_BUTTON_H
 
+using namespace menu;
 
 class Button {
 private:
     Object object;
-    TTF_Font *font;
     SDL_Color color;
     const char* msg;
-    SDL_Surface* surf;
-    SDL_Texture* tex;
     SDL_Point textPos;
     SDL_Rect textRect;
 
+    string fontFile;
+    int fontsize;
+
+    ButtonType buttonType;
+
 
 public:
-    Button(const char* msg, int textX, int textY, SDL_Color color, TTF_Font *font, Object objekt);
+    Button(const char* msg, int textX, int textY, SDL_Color color, string fontFile, int fontSize, Object objekt, ButtonType buttonType);
     Button();
     ~Button();
     void draw(SDL_Renderer* renderer);
     void drawText(SDL_Renderer* renderer);
+    click isClickt(int x, int y);
+    ButtonType getButtonType();
 
 
 
