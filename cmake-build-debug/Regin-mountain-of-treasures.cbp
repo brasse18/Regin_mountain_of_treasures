@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Audio.cpp">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Audio.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Button.cpp">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>

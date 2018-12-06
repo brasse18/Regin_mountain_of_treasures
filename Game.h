@@ -6,10 +6,11 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
+
 #include "Object.h"
 #include "Button.h"
 #include "Image.h"
-
+#include "Audio.h"
 
 
 #ifndef REGIN_MOUNTAIN_OF_TREASURES_GAME_H
@@ -42,6 +43,14 @@ private:
     SDL_Rect imageRect[3];
 
     string fontFiles[2];
+    enum gameMode {
+        startMenu, gameRun
+    };
+
+    gameMode renderMode;
+
+    Audio effect;
+
 
 public:
     Game();

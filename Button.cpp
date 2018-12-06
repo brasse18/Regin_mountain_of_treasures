@@ -57,8 +57,10 @@ ButtonType Button::getButtonType() {
 
 click Button::isClickt(int x, int y) {
     click out = up;
-    if (object.getDest().x >= x &&  object.getDest().y >= y &&
-        object.getDest().h <= y && object.getDest().w <= x ) {
+    //cout << object.getDest().x << " " << object.getDest().y << endl;
+    //cout << object.getDest().w << " " << object.getDest().h << endl << endl;
+    if (object.getDest().y < y && object.getDest().y + object.getDest().h > y &&
+        object.getDest().x < x && object.getDest().x + object.getDest().w > x) {
         out = down;
     }
 

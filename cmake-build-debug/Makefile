@@ -123,6 +123,33 @@ Regin-mountain-of-treasures/fast:
 	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/build
 .PHONY : Regin-mountain-of-treasures/fast
 
+Audio.o: Audio.cpp.o
+
+.PHONY : Audio.o
+
+# target to build an object file
+Audio.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Audio.cpp.o
+.PHONY : Audio.cpp.o
+
+Audio.i: Audio.cpp.i
+
+.PHONY : Audio.i
+
+# target to preprocess a source file
+Audio.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Audio.cpp.i
+.PHONY : Audio.cpp.i
+
+Audio.s: Audio.cpp.s
+
+.PHONY : Audio.s
+
+# target to generate assembly for a file
+Audio.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Audio.cpp.s
+.PHONY : Audio.cpp.s
+
 Button.o: Button.cpp.o
 
 .PHONY : Button.o
@@ -267,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Regin-mountain-of-treasures"
+	@echo "... Audio.o"
+	@echo "... Audio.i"
+	@echo "... Audio.s"
 	@echo "... Button.o"
 	@echo "... Button.i"
 	@echo "... Button.s"

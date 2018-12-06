@@ -14,7 +14,7 @@
 
 Game::Game() {
 
-    SDL_Init(0);
+    SDL_Init(SDL_INIT_EVERYTHING);
     nrObjects = 0;
     nrButtons = 0;
     grid = *InitRect(&grid, 0, 0, 10, 10);
@@ -57,19 +57,27 @@ Game::Game() {
     fontFiles[0] = "resource/font/Sans.ttf";
     fontFiles[1] = "resource/font/Runsten.ttf";
 
-    SDL_Rect exitButtonDest;
-    exitButtonDest = *InitRect(&exitButtonDest, 20, 20, 10, 10);
-    Object exitButtonObject = Object(grid, exitButtonDest, images[2]);
-
-    //objects[1] = exitButtonObject;
-
     SDL_Color tempColor;
     tempColor = *InitColor(&tempColor,20,20,20,255);
-    //TTF_Font *tempFont = TTF_OpenFont(fontFiles[0].c_str(), 24);
+
+    SDL_Rect exitButtonDest;
+    exitButtonDest = *InitRect(&exitButtonDest, 1, 20, 10, 10);
+    Object exitButtonObject = Object(grid, exitButtonDest, images[2]);
     buttons[0] = Button("Exit", 50, 50, tempColor, fontFiles[0], 24, exitButtonObject, ButtonType ::exit);
     nrButtons++;
 
+    //objects[1] = exitButtonObject;
+    //TTF_Font *tempFont = TTF_OpenFont(fontFiles[0].c_str(), 24);
 
+    SDL_Rect startButtonDest;
+    startButtonDest = *InitRect(&startButtonDest, 1, 10, 10, 10);
+    Object startButtonObject = Object(grid, startButtonDest, images[2]);
+    buttons[1] = Button("Start", 50, 50, tempColor, fontFiles[0], 24, startButtonObject, ButtonType ::start);
+    nrButtons++;
+
+    renderMode = startMenu;
+
+    effect.loade("resource/audio/applaus.wav");
 
     loop();
 }
@@ -97,6 +105,7 @@ void Game::loop() {
         input();
         update();
     }
+    cout << "Exit Game" << endl;
 }
 
 void Game::update() {
@@ -107,30 +116,37 @@ void Game::input() {
     SDL_Event e;
     while (SDL_PollEvent(&e))
     {
-        if (e.type == SDL_QUIT) {running = false; cout << "Quit Game" << endl;}
+        if (e.type == SDL_QUIT) {running = false;}
         if (e.type == SDL_KEYDOWN) {
-            if (e.key.keysym.sym == SDLK_ESCAPE) running=false;
-            if (e.key.keysym.sym == SDLK_w) {cout << "Key w down" << endl;}
+            if (e.key.keysym.sym == SDLK_ESCAPE) {running=false;}
+
         }
         if (e.type == SDL_KEYUP) {
-            if (e.key.keysym.sym == SDLK_w) {cout << "Key w up" << endl; objects[0].move(0, -10);}
-            if (e.key.keysym.sym == SDLK_s) {cout << "Key s up" << endl; objects[0].move(0, 10);}
+            if (e.key.keysym.sym == SDLK_w) {objects[0].move(0, -10);}
+            if (e.key.keysym.sym == SDLK_s) {objects[0].move(0, 10);}
 
-            if (e.key.keysym.sym == SDLK_d) {cout << "Key d up" << endl; objects[0].move(10, 0);}
-            if (e.key.keysym.sym == SDLK_a) {cout << "Key a up" << endl; objects[0].move(-10, 0);}
+            if (e.key.keysym.sym == SDLK_d) {objects[0].move(10, 0);}
+            if (e.key.keysym.sym == SDLK_a) {objects[0].move(-10, 0);}
+
+            if (e.key.keysym.sym == SDLK_p) {renderMode = startMenu;}
         }
+
         SDL_GetMouseState(&mousex, &mousey);
         if (e.type == SDL_MOUSEBUTTONDOWN)
         {
             if (e.key.keysym.sym == SDL_BUTTON_LEFT) {}
-            cout << "X: " << mousex << " Y: " << mousey << endl;
+            //cout << "X: " << mousex << " Y: " << mousey << endl;
 
             for (int i = 0; i < nrButtons; ++i) {
-                if (buttons[i].isClickt(mousex, mousey)) {
+                if (buttons[i].isClickt(mousex, mousey) == click::down) {
                     if(buttons[i].getButtonType() == ButtonType::exit)
                     {
                         running=false;
+                    } else if (buttons[i].getButtonType() == ButtonType::start) {
+                        renderMode = gameRun;
+                        effect.play();
                     }
+                    //cout << "button type: " << buttons[i].getButtonType() << endl;
                 }
             }
         }
@@ -146,11 +162,15 @@ void Game::render() {
     rect.h=SCREEN_HEIGHT;
     SDL_RenderFillRect(renderer, &rect);
 
-    for (int i = 0; i < nrButtons; ++i) { buttons[i].draw(renderer); }
+    if (renderMode == startMenu)
+    {
+        draw(gameTitel, 20, 30, 0, 255, 0, 24, 1);
+        for (int i = 0; i < nrButtons; ++i) { buttons[i].draw(renderer); }
+    } else if (renderMode == gameRun)
+    {
+        for (int i = 0; i < nrObjects; ++i) { objects[i].draw(renderer); }
+    }
 
-    draw("Test av font", 20, 30, 0, 255, 0, 24, 1);
-
-    for (int i = 0; i < nrObjects; ++i) { objects[i].draw(renderer); }
 
 
 

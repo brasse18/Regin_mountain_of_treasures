@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/brasse/Regin-mountain-of-treasures/Audio.cpp
+Audio.h
+/home/brasse/Regin-mountain-of-treasures/Audio.h
+
+/home/brasse/Regin-mountain-of-treasures/Audio.h
+SDL2/SDL_audio.h
+-
+string
+-
+sys/stat.h
+-
+iostream
+-
+
 /home/brasse/Regin-mountain-of-treasures/Button.cpp
 Button.h
 /home/brasse/Regin-mountain-of-treasures/Button.h
@@ -57,6 +71,8 @@ Button.h
 /home/brasse/Regin-mountain-of-treasures/Button.h
 Image.h
 /home/brasse/Regin-mountain-of-treasures/Image.h
+Audio.h
+/home/brasse/Regin-mountain-of-treasures/Audio.h
 
 /home/brasse/Regin-mountain-of-treasures/Image.cpp
 sys/stat.h

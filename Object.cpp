@@ -50,7 +50,3 @@ void Object::draw(SDL_Renderer* renderer) {
     SDL_RenderCopyEx(renderer, image.getTexture(), image.getSrc(), &dest, 0, NULL, SDL_FLIP_NONE);
 
 }
-
-SDL_Rect Object::getDest() {
-    return dest;
-}

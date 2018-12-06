@@ -35,7 +35,6 @@ public:
     void setImage(Image image);
     void draw(SDL_Renderer* renderer);
 
-    SDL_Rect getDest();
 };
 
 
