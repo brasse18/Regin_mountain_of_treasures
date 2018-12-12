@@ -48,6 +48,10 @@ Game::Game() {
     imageRect[2] = *InitRect(&imageRect[0],0, 0, 512, 512);
     images[2] = Image(imageFiles[2], imageRect[2], renderer);
 
+    imageFiles[3] = "resource/image/button-serpent.png";
+    imageRect[3] = *InitRect(&imageRect[0],0, 0, 1024, 389);
+    images[3] = Image(imageFiles[3], imageRect[3], renderer);
+
     SDL_Rect playerDest;
     playerDest = *InitRect(&playerDest, 5, 5, 10, 10);
 
@@ -61,18 +65,18 @@ Game::Game() {
     tempColor = *InitColor(&tempColor,20,20,20,255);
 
     SDL_Rect exitButtonDest;
-    exitButtonDest = *InitRect(&exitButtonDest, 1, 20, 10, 10);
+    exitButtonDest = *InitRect(&exitButtonDest, 1, 20, 5, 5);
     Object exitButtonObject = Object(grid, exitButtonDest, images[2]);
-    buttons[0] = Button("Exit", 50, 50, tempColor, fontFiles[0], 24, exitButtonObject, ButtonType ::exit);
+    buttons[0] = Button("Exit", 25, 25, tempColor, fontFiles[0], 24, exitButtonObject, ButtonType ::exit);
     nrButtons++;
 
     //objects[1] = exitButtonObject;
     //TTF_Font *tempFont = TTF_OpenFont(fontFiles[0].c_str(), 24);
 
     SDL_Rect startButtonDest;
-    startButtonDest = *InitRect(&startButtonDest, 1, 10, 10, 10);
-    Object startButtonObject = Object(grid, startButtonDest, images[2]);
-    buttons[1] = Button("Start", 50, 50, tempColor, fontFiles[0], 24, startButtonObject, ButtonType ::start);
+    startButtonDest = *InitRect(&startButtonDest, 1, 10, 8, 5);
+    Object startButtonObject = Object(grid, startButtonDest, images[3]);
+    buttons[1] = Button("Start", 40, 25, tempColor, fontFiles[1], 24, startButtonObject, ButtonType ::start);
     nrButtons++;
 
     renderMode = startMenu;

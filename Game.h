@@ -38,9 +38,9 @@ private:
     int nrButtons;
     Button buttons[2];
 
-    Image images[3];
-    string imageFiles[3];
-    SDL_Rect imageRect[3];
+    Image images[4];
+    string imageFiles[4];
+    SDL_Rect imageRect[4];
 
     string fontFiles[2];
     enum gameMode {

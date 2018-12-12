@@ -43,6 +43,30 @@ void Button::drawText(SDL_Renderer *renderer) {
 
     SDL_FreeSurface(surf);
     SDL_RenderCopy(renderer, tex, NULL, &textRect);
+
+    SDL_Rect boten;
+    boten.x = object.getDest().x;
+    boten.y = object.getDest().y + object.getDest().h - 5;
+    boten.w = object.getDest().w;
+    boten.h = 2;
+
+    SDL_Rect top;
+    top.x = object.getDest().x;
+    top.y = object.getDest().y;
+    top.w = object.getDest().w;
+    top.h = 2;
+
+// Change color to blue!
+    SDL_SetRenderDrawColor( renderer, 0, 0, 0, 255 );
+
+// Render our SDL_Rect
+// The rectangle will now be blue
+    SDL_RenderFillRect(renderer, &top);
+    SDL_RenderFillRect(renderer, &boten);
+    //SDL_RenderDrawRect( renderer, &r );
+
+
+
     SDL_DestroyTexture(tex);
     TTF_CloseFont(font);
 }
