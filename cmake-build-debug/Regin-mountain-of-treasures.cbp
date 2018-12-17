@@ -100,6 +100,12 @@
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Game.h">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/GameModOne.cpp">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/GameModOne.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Image.cpp">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>

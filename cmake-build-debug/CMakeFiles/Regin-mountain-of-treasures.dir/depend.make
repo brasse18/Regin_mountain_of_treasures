@@ -18,6 +18,11 @@ CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../Image.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../Object.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../enum.h
 
+CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o: ../GameModOne.cpp
+CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o: ../GameModOne.h
+CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o: ../Image.h
+CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o: ../Object.h
+
 CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o: ../Image.cpp
 CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o: ../Image.h
 

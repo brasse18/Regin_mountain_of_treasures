@@ -41,22 +41,48 @@ Game::Game() {
     images[0] = Image(imageFiles[0], imageRect[0], renderer);
 
     imageFiles[1] = "resource/image/test.png";
-    imageRect[1] = *InitRect(&imageRect[0],0, 0, 500, 600);
+    imageRect[1] = *InitRect(&imageRect[1],0, 0, 500, 600);
     images[1] = Image(imageFiles[1], imageRect[1], renderer);
 
     imageFiles[2] = "resource/image/exitButton.png";
-    imageRect[2] = *InitRect(&imageRect[0],0, 0, 512, 512);
+    imageRect[2] = *InitRect(&imageRect[2],0, 0, 512, 512);
     images[2] = Image(imageFiles[2], imageRect[2], renderer);
 
     imageFiles[3] = "resource/image/button-serpent.png";
-    imageRect[3] = *InitRect(&imageRect[0],0, 0, 1024, 389);
+    imageRect[3] = *InitRect(&imageRect[3],0, 0, 1024, 389);
     images[3] = Image(imageFiles[3], imageRect[3], renderer);
+
+    imageFiles[4] = "resource/image/stone-wall.png";
+    imageRect[4] = *InitRect(&imageRect[4],0, 0, 512, 512);
+    images[4] = Image(imageFiles[4], imageRect[4], renderer);
+
+    imageFiles[5] = "resource/image/stone-ground.png";
+    imageRect[5] = *InitRect(&imageRect[5],0, 0, 512, 512);
+    images[5] = Image(imageFiles[5], imageRect[5], renderer);
 
     SDL_Rect playerDest;
     playerDest = *InitRect(&playerDest, 5, 5, 10, 10);
 
     objects[0] = Object(grid, playerDest, images[1]);
     nrObjects++;
+
+    playerDest = *InitRect(&playerDest, 70, 40, 10, 10);
+    objects[1] = Object(grid, playerDest, images[1]);
+    nrObjects++;
+
+    SDL_Rect tempReck;
+
+    for (int i = 0; i < 10; ++i) {
+        for (int j = 0; j < 10; ++j) {
+            tempReck = *InitRect(&tempReck, i*5, j*5, 5, 5);
+            grounds[i][j] = Object(grid, tempReck, images[5]);
+            if (i == 0 || j == 0 || i == 9)
+            {
+                tempReck = *InitRect(&tempReck, i*5, j*5, 5, 5);
+                walls[i][j] = Object(grid, tempReck, images[4]);
+            }
+        }
+    }
 
     fontFiles[0] = "resource/font/Sans.ttf";
     fontFiles[1] = "resource/font/Runsten.ttf";
@@ -129,8 +155,8 @@ void Game::input() {
             if (e.key.keysym.sym == SDLK_w) {objects[0].move(0, -10);}
             if (e.key.keysym.sym == SDLK_s) {objects[0].move(0, 10);}
 
-            if (e.key.keysym.sym == SDLK_d) {objects[0].move(10, 0);}
-            if (e.key.keysym.sym == SDLK_a) {objects[0].move(-10, 0);}
+            if (e.key.keysym.sym == SDLK_d) {objects[0].move(10, 0); objects[1].move(10, 0);}
+            if (e.key.keysym.sym == SDLK_a) {objects[0].move(-10, 0);objects[1].move(-10, 0);}
 
             if (e.key.keysym.sym == SDLK_p) {renderMode = startMenu;}
         }
@@ -172,6 +198,15 @@ void Game::render() {
         for (int i = 0; i < nrButtons; ++i) { buttons[i].draw(renderer); }
     } else if (renderMode == gameRun)
     {
+        for (int i = 0; i < 10; ++i) {
+            for (int j = 0; j < 10; ++j) {
+                grounds[i][j].draw(renderer);
+                if (i == 0 || j == 0 || i == 9)
+                {
+                    walls[i][j].draw(renderer);
+                }
+            }
+        }
         for (int i = 0; i < nrObjects; ++i) { objects[i].draw(renderer); }
     }
 

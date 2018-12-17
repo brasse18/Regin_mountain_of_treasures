@@ -204,6 +204,33 @@ Game.cpp.s:
 	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+GameModOne.o: GameModOne.cpp.o
+
+.PHONY : GameModOne.o
+
+# target to build an object file
+GameModOne.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o
+.PHONY : GameModOne.cpp.o
+
+GameModOne.i: GameModOne.cpp.i
+
+.PHONY : GameModOne.i
+
+# target to preprocess a source file
+GameModOne.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.i
+.PHONY : GameModOne.cpp.i
+
+GameModOne.s: GameModOne.cpp.s
+
+.PHONY : GameModOne.s
+
+# target to generate assembly for a file
+GameModOne.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.s
+.PHONY : GameModOne.cpp.s
+
 Image.o: Image.cpp.o
 
 .PHONY : Image.o
@@ -303,6 +330,9 @@ help:
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... GameModOne.o"
+	@echo "... GameModOne.i"
+	@echo "... GameModOne.s"
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"

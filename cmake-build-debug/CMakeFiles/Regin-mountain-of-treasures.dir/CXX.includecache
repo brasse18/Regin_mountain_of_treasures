@@ -74,6 +74,22 @@ Image.h
 Audio.h
 /home/brasse/Regin-mountain-of-treasures/Audio.h
 
+/home/brasse/Regin-mountain-of-treasures/GameModOne.cpp
+GameModOne.h
+/home/brasse/Regin-mountain-of-treasures/GameModOne.h
+
+/home/brasse/Regin-mountain-of-treasures/GameModOne.h
+iostream
+-
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+Image.h
+/home/brasse/Regin-mountain-of-treasures/Image.h
+Object.h
+/home/brasse/Regin-mountain-of-treasures/Object.h
+
 /home/brasse/Regin-mountain-of-treasures/Image.cpp
 sys/stat.h
 -

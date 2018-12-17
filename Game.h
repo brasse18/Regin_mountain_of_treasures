@@ -35,12 +35,15 @@ private:
     int nrObjects;
     Object objects[10];
 
+    Object grounds[10][10];
+    Object walls[10][10];
+
     int nrButtons;
     Button buttons[2];
 
-    Image images[4];
-    string imageFiles[4];
-    SDL_Rect imageRect[4];
+    Image images[6];
+    string imageFiles[6];
+    SDL_Rect imageRect[6];
 
     string fontFiles[2];
     enum gameMode {
