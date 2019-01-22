@@ -9,7 +9,11 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/brasse/Regin-mountain-of-treasures/Game.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o"
   "/home/brasse/Regin-mountain-of-treasures/GameModOne.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o"
   "/home/brasse/Regin-mountain-of-treasures/Image.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o"
+  "/home/brasse/Regin-mountain-of-treasures/Image3D.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o"
+  "/home/brasse/Regin-mountain-of-treasures/MapHandler.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o"
+  "/home/brasse/Regin-mountain-of-treasures/MappBlock.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o"
   "/home/brasse/Regin-mountain-of-treasures/Object.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o"
+  "/home/brasse/Regin-mountain-of-treasures/Vecktor3D.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o"
   "/home/brasse/Regin-mountain-of-treasures/main.cpp" "/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

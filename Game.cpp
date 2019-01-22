@@ -24,8 +24,8 @@ Game::Game() {
     SDL_Rect r;
     SDL_GetDisplayBounds(0, &r);
 
-    SCREEN_WIDTH = (r.w/2);
-    SCREEN_HEIGHT = (r.h/2);
+    SCREEN_WIDTH = (r.w/3*2);
+    SCREEN_HEIGHT = (r.h/3*2);
 
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
@@ -61,14 +61,16 @@ Game::Game() {
     images[5] = Image(imageFiles[5], imageRect[5], renderer);
 
     SDL_Rect playerDest;
-    playerDest = *InitRect(&playerDest, 5, 5, 10, 10);
+    playerDest = *InitRect(&playerDest, 0, 0, 10, 10);
 
     objects[0] = Object(grid, playerDest, images[1]);
     nrObjects++;
 
-    playerDest = *InitRect(&playerDest, 70, 40, 10, 10);
+    playerDest = *InitRect(&playerDest, 50, 40, 10, 10);
     objects[1] = Object(grid, playerDest, images[1]);
     nrObjects++;
+
+
 
     SDL_Rect tempReck;
 
@@ -108,6 +110,9 @@ Game::Game() {
     renderMode = startMenu;
 
     effect.loade("resource/audio/applaus.wav");
+    mapHandler = MapHandler(images, 6);
+    mapHandler.makeMap(grid, MapHandler::Vecktor3D(10,10,10,10,10,10));
+
 
     loop();
 }
@@ -152,11 +157,17 @@ void Game::input() {
 
         }
         if (e.type == SDL_KEYUP) {
-            if (e.key.keysym.sym == SDLK_w) {objects[0].move(0, -10);}
-            if (e.key.keysym.sym == SDLK_s) {objects[0].move(0, 10);}
+            if (e.key.keysym.sym == SDLK_w) {objects[0].move(0, -50);mapHandler.movePlayer(grid,objects[0],0,-1);}
+            if (e.key.keysym.sym == SDLK_s) {objects[0].move(0, 50);mapHandler.movePlayer(grid,objects[0],0,1);}
 
-            if (e.key.keysym.sym == SDLK_d) {objects[0].move(10, 0); objects[1].move(10, 0);}
-            if (e.key.keysym.sym == SDLK_a) {objects[0].move(-10, 0);objects[1].move(-10, 0);}
+            if (e.key.keysym.sym == SDLK_d)
+            {
+                objects[0].move(50, 0);
+                objects[1].move(50, 0);
+                mapHandler.movePlayer(grid,objects[0],1,0);
+            }
+            if (e.key.keysym.sym == SDLK_a)
+            {objects[0].move(-50, 0);objects[1].move(-50, 0);mapHandler.movePlayer(grid,objects[0],-1,0);}
 
             if (e.key.keysym.sym == SDLK_p) {renderMode = startMenu;}
         }
@@ -195,18 +206,22 @@ void Game::render() {
     if (renderMode == startMenu)
     {
         draw(gameTitel, 20, 30, 0, 255, 0, 24, 1);
-        for (int i = 0; i < nrButtons; ++i) { buttons[i].draw(renderer); }
+        for (int i = 0; i < nrButtons; ++i)
+        {
+            buttons[i].draw(renderer);
+        }
     } else if (renderMode == gameRun)
     {
-        for (int i = 0; i < 10; ++i) {
-            for (int j = 0; j < 10; ++j) {
-                grounds[i][j].draw(renderer);
-                if (i == 0 || j == 0 || i == 9)
-                {
-                    walls[i][j].draw(renderer);
-                }
-            }
-        }
+        //for (int i = 0; i < 10; ++i) {
+        //    for (int j = 0; j < 10; ++j) {
+        //        grounds[i][j].draw(renderer);
+        //        if (i == 0 || j == 0 || i == 9)
+        //        {
+        //            walls[i][j].draw(renderer);
+        //        }
+        //    }
+        //}
+        mapHandler.draw(renderer);
         for (int i = 0; i < nrObjects; ++i) { objects[i].draw(renderer); }
     }
 

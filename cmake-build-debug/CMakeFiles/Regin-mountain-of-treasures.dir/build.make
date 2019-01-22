@@ -225,6 +225,102 @@ CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o.provides: CMakeFiles
 CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o.provides.build: CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o
 
 
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o: CMakeFiles/Regin-mountain-of-treasures.dir/flags.make
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o: ../MapHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o -c /home/brasse/Regin-mountain-of-treasures/MapHandler.cpp
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/MapHandler.cpp > CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.i
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/MapHandler.cpp -o CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.s
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o.requires
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o.provides: CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o.provides
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o.provides.build: CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o
+
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o: CMakeFiles/Regin-mountain-of-treasures.dir/flags.make
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o: ../MappBlock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o -c /home/brasse/Regin-mountain-of-treasures/MappBlock.cpp
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/MappBlock.cpp > CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.i
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/MappBlock.cpp -o CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.s
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o.requires
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o.provides: CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o.provides
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o.provides.build: CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o
+
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o: CMakeFiles/Regin-mountain-of-treasures.dir/flags.make
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o: ../Vecktor3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o -c /home/brasse/Regin-mountain-of-treasures/Vecktor3D.cpp
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/Vecktor3D.cpp > CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.i
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/Vecktor3D.cpp -o CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.s
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o.requires
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o.provides: CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o.provides
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o.provides.build: CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o
+
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o: CMakeFiles/Regin-mountain-of-treasures.dir/flags.make
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o: ../Image3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o -c /home/brasse/Regin-mountain-of-treasures/Image3D.cpp
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brasse/Regin-mountain-of-treasures/Image3D.cpp > CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.i
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brasse/Regin-mountain-of-treasures/Image3D.cpp -o CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.s
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o.requires:
+
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o.requires
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o.provides: CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o.provides.build
+.PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o.provides
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o.provides.build: CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o
+
+
 # Object files for target Regin-mountain-of-treasures
 Regin__mountain__of__treasures_OBJECTS = \
 "CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o" \
@@ -233,7 +329,11 @@ Regin__mountain__of__treasures_OBJECTS = \
 "CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o" \
 "CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o" \
 "CMakeFiles/Regin-mountain-of-treasures.dir/Audio.cpp.o" \
-"CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o"
+"CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o" \
+"CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o" \
+"CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o" \
+"CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o" \
+"CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o"
 
 # External object files for target Regin-mountain-of-treasures
 Regin__mountain__of__treasures_EXTERNAL_OBJECTS =
@@ -245,9 +345,13 @@ Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Image.cp
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Audio.cpp.o
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o
+Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o
+Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o
+Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o
+Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/build.make
 Regin-mountain-of-treasures: CMakeFiles/Regin-mountain-of-treasures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Regin-mountain-of-treasures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brasse/Regin-mountain-of-treasures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Regin-mountain-of-treasures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Regin-mountain-of-treasures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -262,6 +366,10 @@ CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-o
 CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/Button.cpp.o.requires
 CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/Audio.cpp.o.requires
 CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o.requires
+CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o.requires
+CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o.requires
+CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o.requires
+CMakeFiles/Regin-mountain-of-treasures.dir/requires: CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o.requires
 
 .PHONY : CMakeFiles/Regin-mountain-of-treasures.dir/requires
 

@@ -16,6 +16,7 @@ CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o
  /home/brasse/Regin-mountain-of-treasures/Game.cpp
  /home/brasse/Regin-mountain-of-treasures/Game.h
  /home/brasse/Regin-mountain-of-treasures/Image.h
+ /home/brasse/Regin-mountain-of-treasures/MapHandler.h
  /home/brasse/Regin-mountain-of-treasures/Object.h
  /home/brasse/Regin-mountain-of-treasures/enum.h
 CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o
@@ -26,15 +27,36 @@ CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o
 CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o
  /home/brasse/Regin-mountain-of-treasures/Image.cpp
  /home/brasse/Regin-mountain-of-treasures/Image.h
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o
+ /home/brasse/Regin-mountain-of-treasures/Image.h
+ /home/brasse/Regin-mountain-of-treasures/Image3D.cpp
+ /home/brasse/Regin-mountain-of-treasures/Image3D.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o
+ /home/brasse/Regin-mountain-of-treasures/Audio.h
+ /home/brasse/Regin-mountain-of-treasures/Image.h
+ /home/brasse/Regin-mountain-of-treasures/MapHandler.cpp
+ /home/brasse/Regin-mountain-of-treasures/MapHandler.h
+ /home/brasse/Regin-mountain-of-treasures/Object.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o
+ /home/brasse/Regin-mountain-of-treasures/Image.h
+ /home/brasse/Regin-mountain-of-treasures/Image3D.h
+ /home/brasse/Regin-mountain-of-treasures/MappBlock.cpp
+ /home/brasse/Regin-mountain-of-treasures/MappBlock.h
+ /home/brasse/Regin-mountain-of-treasures/Object.h
+ /home/brasse/Regin-mountain-of-treasures/Vecktor3D.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o
  /home/brasse/Regin-mountain-of-treasures/Image.h
  /home/brasse/Regin-mountain-of-treasures/Object.cpp
  /home/brasse/Regin-mountain-of-treasures/Object.h
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o
+ /home/brasse/Regin-mountain-of-treasures/Vecktor3D.cpp
+ /home/brasse/Regin-mountain-of-treasures/Vecktor3D.h
 CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o
  /home/brasse/Regin-mountain-of-treasures/Audio.h
  /home/brasse/Regin-mountain-of-treasures/Button.h
  /home/brasse/Regin-mountain-of-treasures/Game.h
  /home/brasse/Regin-mountain-of-treasures/Image.h
+ /home/brasse/Regin-mountain-of-treasures/MapHandler.h
  /home/brasse/Regin-mountain-of-treasures/Object.h
  /home/brasse/Regin-mountain-of-treasures/enum.h
  /home/brasse/Regin-mountain-of-treasures/main.cpp

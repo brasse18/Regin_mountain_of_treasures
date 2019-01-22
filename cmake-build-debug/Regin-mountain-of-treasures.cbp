@@ -112,10 +112,34 @@
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Image.h">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Image3D.cpp">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Image3D.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/MapHandler.cpp">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/MapHandler.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/MappBlock.cpp">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/MappBlock.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Object.cpp">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Object.h">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Vecktor3D.cpp">
+			<Option target="Regin-mountain-of-treasures"/>
+		</Unit>
+		<Unit filename="/home/brasse/Regin-mountain-of-treasures/Vecktor3D.h">
 			<Option target="Regin-mountain-of-treasures"/>
 		</Unit>
 		<Unit filename="/home/brasse/Regin-mountain-of-treasures/enum.h">

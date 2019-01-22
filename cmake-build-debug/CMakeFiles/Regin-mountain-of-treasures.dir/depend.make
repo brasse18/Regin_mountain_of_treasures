@@ -15,6 +15,7 @@ CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../Button.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../Game.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../Image.h
+CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../MapHandler.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../Object.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Game.cpp.o: ../enum.h
 
@@ -26,14 +27,35 @@ CMakeFiles/Regin-mountain-of-treasures.dir/GameModOne.cpp.o: ../Object.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o: ../Image.cpp
 CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.o: ../Image.h
 
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o: ../Image.h
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o: ../Image3D.cpp
+CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o: ../Image3D.h
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o: ../Audio.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o: ../Image.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o: ../MapHandler.cpp
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o: ../MapHandler.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o: ../Object.h
+
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o: ../Image.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o: ../Image3D.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o: ../MappBlock.cpp
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o: ../MappBlock.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o: ../Object.h
+CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o: ../Vecktor3D.h
+
 CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o: ../Image.h
 CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o: ../Object.cpp
 CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.o: ../Object.h
+
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o: ../Vecktor3D.cpp
+CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o: ../Vecktor3D.h
 
 CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o: ../Audio.h
 CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o: ../Button.h
 CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o: ../Game.h
 CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o: ../Image.h
+CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o: ../MapHandler.h
 CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o: ../Object.h
 CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o: ../enum.h
 CMakeFiles/Regin-mountain-of-treasures.dir/main.cpp.o: ../main.cpp

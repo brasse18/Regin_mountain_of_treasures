@@ -11,6 +11,7 @@
 #include "Button.h"
 #include "Image.h"
 #include "Audio.h"
+#include "MapHandler.h"
 
 
 #ifndef REGIN_MOUNTAIN_OF_TREASURES_GAME_H
@@ -53,6 +54,8 @@ private:
     gameMode renderMode;
 
     Audio effect;
+
+    MapHandler mapHandler;
 
 
 public:

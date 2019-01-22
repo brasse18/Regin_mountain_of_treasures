@@ -258,6 +258,87 @@ Image.cpp.s:
 	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image.cpp.s
 .PHONY : Image.cpp.s
 
+Image3D.o: Image3D.cpp.o
+
+.PHONY : Image3D.o
+
+# target to build an object file
+Image3D.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.o
+.PHONY : Image3D.cpp.o
+
+Image3D.i: Image3D.cpp.i
+
+.PHONY : Image3D.i
+
+# target to preprocess a source file
+Image3D.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.i
+.PHONY : Image3D.cpp.i
+
+Image3D.s: Image3D.cpp.s
+
+.PHONY : Image3D.s
+
+# target to generate assembly for a file
+Image3D.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Image3D.cpp.s
+.PHONY : Image3D.cpp.s
+
+MapHandler.o: MapHandler.cpp.o
+
+.PHONY : MapHandler.o
+
+# target to build an object file
+MapHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.o
+.PHONY : MapHandler.cpp.o
+
+MapHandler.i: MapHandler.cpp.i
+
+.PHONY : MapHandler.i
+
+# target to preprocess a source file
+MapHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.i
+.PHONY : MapHandler.cpp.i
+
+MapHandler.s: MapHandler.cpp.s
+
+.PHONY : MapHandler.s
+
+# target to generate assembly for a file
+MapHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/MapHandler.cpp.s
+.PHONY : MapHandler.cpp.s
+
+MappBlock.o: MappBlock.cpp.o
+
+.PHONY : MappBlock.o
+
+# target to build an object file
+MappBlock.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.o
+.PHONY : MappBlock.cpp.o
+
+MappBlock.i: MappBlock.cpp.i
+
+.PHONY : MappBlock.i
+
+# target to preprocess a source file
+MappBlock.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.i
+.PHONY : MappBlock.cpp.i
+
+MappBlock.s: MappBlock.cpp.s
+
+.PHONY : MappBlock.s
+
+# target to generate assembly for a file
+MappBlock.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/MappBlock.cpp.s
+.PHONY : MappBlock.cpp.s
+
 Object.o: Object.cpp.o
 
 .PHONY : Object.o
@@ -284,6 +365,33 @@ Object.s: Object.cpp.s
 Object.cpp.s:
 	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Object.cpp.s
 .PHONY : Object.cpp.s
+
+Vecktor3D.o: Vecktor3D.cpp.o
+
+.PHONY : Vecktor3D.o
+
+# target to build an object file
+Vecktor3D.cpp.o:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.o
+.PHONY : Vecktor3D.cpp.o
+
+Vecktor3D.i: Vecktor3D.cpp.i
+
+.PHONY : Vecktor3D.i
+
+# target to preprocess a source file
+Vecktor3D.cpp.i:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.i
+.PHONY : Vecktor3D.cpp.i
+
+Vecktor3D.s: Vecktor3D.cpp.s
+
+.PHONY : Vecktor3D.s
+
+# target to generate assembly for a file
+Vecktor3D.cpp.s:
+	$(MAKE) -f CMakeFiles/Regin-mountain-of-treasures.dir/build.make CMakeFiles/Regin-mountain-of-treasures.dir/Vecktor3D.cpp.s
+.PHONY : Vecktor3D.cpp.s
 
 main.o: main.cpp.o
 
@@ -336,9 +444,21 @@ help:
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"
+	@echo "... Image3D.o"
+	@echo "... Image3D.i"
+	@echo "... Image3D.s"
+	@echo "... MapHandler.o"
+	@echo "... MapHandler.i"
+	@echo "... MapHandler.s"
+	@echo "... MappBlock.o"
+	@echo "... MappBlock.i"
+	@echo "... MappBlock.s"
 	@echo "... Object.o"
 	@echo "... Object.i"
 	@echo "... Object.s"
+	@echo "... Vecktor3D.o"
+	@echo "... Vecktor3D.i"
+	@echo "... Vecktor3D.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
